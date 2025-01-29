@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika:wght@300..700&display=swap');
+
+        * {
+            background-color: black;
+        }
+        h2 {
+            font-family: "Cinzel", serif;
+            color: yellow;
+            font-size: 80px;
+            padding-top: 155px;
+        }
+        h1 {
+            font-family: "Cinzel", serif;
+            color: white;
+            padding-left: 60px;
+            margin-top: -49px;
+            font-size: 36px;
+        }
+        img {
+            width: 50px;
+            padding-left: 3px;
+            padding-top: 13px;
+            border-radius: 50%;
+        }
+        button {
+            width: 590px;
+            height: 48px;
+            border-radius: 25px;
+            border: 1px solid rgb(40, 40, 105);
+            border-color: rgb(40, 40, 105);
+            text-align: center;
+            font-size: 18px;
+            background: transparent;
+            box-shadow: 2px 2px 12px rgb(211, 211, 63);
+            cursor: pointer;
+        }
+        .btn {
+            padding-top: -12px;
+        }
+        .bi {
+            padding-left: 4px;
+        }
+        p{
+            font-family: "Signika", sans-serif;
+            font-size: 18px;
+            padding-top: 5px;
+        }
+        
+    </style>
+    <title>VOICE ASSISTANT</title>
+    <link rel="shortcut icon" href="rvatc9odnqxmyilpjrff.svg" type="image/x-icon">
+
+    <!-- Particle js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+        type="text/javascript"></script>
+
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Textillate -->
+    <link rel="stylesheet" href="assets/texllate/animate.css">
+
+</head>
+<body>
+    <section id="ClickBtn">
+        <h2 align="center">JARVIS</h2>
+        <div class="d-flex justify-content-center btn align-items-center" align="center">
+            <button id="micbtn" style="color: yellow;">Click here<i class="bi bi-mic"></i></button>
+        </div>
+    </section>
+
+    <section id="name" hidden>
+        <img src="rvatc9odnqxmyilpjrff.svg" alt=" ">
+        <h1>JARVIS</h1>
+    </section>
+
+    <section id="Oval" hidden>
+        <div class="d-flex justify-content-center align-items-center" align="center">
+            <canvas id="canvasOne" width="400" height="250" style="height: 35vh; padding-top: 47px;"></canvas>
+            <div class="d-flex justify-content-center align-items-center" align="center"
+                style="height: 120vh; padding-top: -100px;">
+                <p class="text-start text-light mb-4 siri-message" align="center" style="color: white; margin-bottom: -40px;">Hello, I am Jarvis Voice Assistant</p>
+                <div class="" style="padding-top: 20px;">
+                    <div id="siri-container"></div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <!-- Particle js -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+    <script src="script.js"></script>
+
+    <!-- Siri wave -->
+    <script src="https://unpkg.com/siriwave/dist/siriwave.umd.min.js"></script>
+
+    <!-- Textillate -->
+    <script src="http://jschr.github.io/textillate/jquery.textillate.js"></script>
+
+    <script src="main.js"></script>
+    <script src="assets/texllate/jquery.fittext.js"></script>
+    <script src="assets/texllate/jquery.lettering.js"></script>
+    <script src="./controllar.js"></script>
+    <script src="./eel.js"></script>
+
+</body>
+</html>
