@@ -1,4 +1,4 @@
-This work in Python 3.12.0
+It work in Python 3.12.0
 
 Install python 3.12.0
 
