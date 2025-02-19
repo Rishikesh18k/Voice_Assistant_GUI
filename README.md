@@ -6,4 +6,4 @@
 
 4) Install all required libraries from terminal --> pip install library_name
 
-5) if you want to run in any version then you can make vertual environment.
+5) if you want to run in any version then you can create vertual environment.
